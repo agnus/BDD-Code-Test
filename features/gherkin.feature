@@ -9,7 +9,7 @@ Feature: Create, show, and list feature files
     And I should see "Some terse yet descriptive text of what is desired"
 
   Scenario: Create a new feature
-    When I go to the "new feature" page
+    When I go to "the new feature page"
     And I fill in "feature-title" with "Some terse yet descriptive text of what is desired"
     And I fill in "scenario-title" with "Some determinable business situation"
     And I fill in "given-block" with "Given some precondition"
@@ -21,7 +21,7 @@ Feature: Create, show, and list feature files
 
   Scenario: Add a new scenario to a existing feature
     Given there is feature titled "Some terse yet descriptive text of what is desired"
-    When I go to the "list features" page
+    When I go to "the list features page"
     And I follow "Some terse yet descriptive text of what is desired"
     And I follow "Add scenario"
     And I fill in "feature-title" with "Another terse yet descriptive text of what is desired"
@@ -40,7 +40,7 @@ Feature: Create, show, and list feature files
     And the feature has "given-block" of "Given another precondition"
     And the feature has "when-block" of "When some action by the actor"
     And the feature has "then-block" of "Then some testable outcome is achieved"
-    When I go to the "list features" page
+    When I go to "the list features page"
     And I follow "Some terse yet descriptive text of what is desired"
     Then I should see "Some terse yet descriptive text of what is desired"
     And I should see "Some determinable business situation"
