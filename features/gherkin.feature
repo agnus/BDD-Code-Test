@@ -3,6 +3,11 @@ Feature: Create, show, and list feature files
   As an public user
   I want to be able to create, show, and list new features
 
+  Scenario: View the list of features
+    Given there is feature titled "Some terse yet descriptive text of what is desired"
+    When I go to the "list features" page
+    And I should see "Some terse yet descriptive text of what is desired"
+
   Scenario: Create a new feature
     When I go to the "new feature" page
     And I fill in "feature-title" with "Some terse yet descriptive text of what is desired"
@@ -27,11 +32,6 @@ Feature: Create, show, and list feature files
     And I press "submit"
     Then I should be on the "show feature page"
     And I should see "Another determinable business situation"
-
-  Scenario: View the list of features
-    Given there is feature titled "Some terse yet descriptive text of what is desired"
-    When I go to the "list features" page
-    And I should see "Some terse yet descriptive text of what is desired"
 
   Scenario: View a single feature
     Given there is feature titled "Some terse yet descriptive text of what is desired"
