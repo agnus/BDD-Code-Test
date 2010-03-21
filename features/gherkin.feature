@@ -5,7 +5,7 @@ Feature: Create, show, and list feature files
 
   Scenario: View the list of features
     Given there is feature titled "Some terse yet descriptive text of what is desired"
-    When I go to the "list features" page
+    When I go to "the list features page"
     And I should see "Some terse yet descriptive text of what is desired"
 
   Scenario: Create a new feature
