@@ -1,0 +1,10 @@
+log/*
+tmp/*
+tmp/**/*
+.DS_Store
+db/development.sqlite3
+db/test.sqlite3
+vendor/gems/**/ext/*
+*.bundle
+*.swp
+rerun.txt
