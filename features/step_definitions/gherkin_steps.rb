@@ -1,8 +1,8 @@
-Given /^there is feature titled "([^\"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Given /^there is feature titled "([^\"]*)"$/ do |title|
+  feature = Factory(:feature)
 end
 
-Given /^the feature has "([^\"]*)" of "([^\"]*)"$/ do |arg1, arg2|
+Given /^the feature has "([^\"]*)" of "([^\"]*)"$/ do |attribute, value|
   pending # express the regexp above with the code you wish you had
 end
 
