@@ -1,5 +1,4 @@
 # Agnus Vietnam BDD Code Test (ENGLISH)
-***
 
 ## Introduction
 The purpose of this test is to introduce and familiarize you with the Behavior Driven Development process used at Agnus Vietnam for all development. The test includes a feature file (explained shortly) and implementation for the first scenario. You will be expected to follow a Red / Green / Refactor process to develop the application and is likely the complete opposite of how you have developed in the past (you write a failing test first, then implement the functionality).  
@@ -13,86 +12,90 @@ You can clone (or fork for later submission) and prepare the incomplete test by 
 
 Ensure you have git installed  
 
-`$ git clone git://github.com/agnus/BDD-Code-Test.git`  
+	$ git clone git://github.com/agnus/BDD-Code-Test.git  
 
 Start your MySQL database  
 
-`$ rake db:create:all`  
+	$ rake db:create:all  
 
-Migrate and prepare the database  
+Migrate the database  
 
-`$ rake db:migrate`  
-`$ rake db:test:prepare`  
+	$ rake db:migrate  
+
+And prepare the database  
+
+	$ rake db:test:prepare  
 
 The code test relies on *Nokogiri* which must built for your specific environment.  
 
-`$ rake gems:build`  
+	$ rake gems:build  
 
 If you have any issues with those steps, notify your contact for assistance.  
 
 The base application includes all the libraries (gems) you need to get started right away; you can start by typing the following:  
 
-`$ ./script/cucumber features/gherkin.feature`  
+	$ ./script/cucumber features/gherkin.feature  
 
 You should see the following output (in red):  
-`
-4 scenarios (2 failed, 1 pending, 1 passed)
-37 steps (2 failed, 28 skipped, 1 pending, 6 passed)
-0m0.210s
-`
+
+	4 scenarios (2 failed, 1 pending, 1 passed)
+	37 steps (2 failed, 28 skipped, 1 pending, 6 passed)
+	0m0.210s
+
+
 ## Introducing Feature File (Cucumber)
 This code test is simply an application to create (and list) new feature files (we're ignoring more advanced features like editing, etc.); feature files describe a specific feature of an application and its scenarios. Cucumber uses a DSL called Gherkin to describe features that are then used by the test suite to test the application, i.e. they are the connecting link between what a client wants and an executable test suite. It's probably better to just dig into the feature file for this test, but be sure to review the Cucumber site if you get confused.  
-`
-Feature: Create, show, and list feature files
-  In order to create and view new feature files
-  As an public user
-  I want to be able to create, show, and list new features
 
-  Scenario: View the list of features
-       Given there is feature titled "Some terse yet descriptive text of what is desired"
-       When I go to the "list features" page
-    And I should see "Some terse yet descriptive text of what is desired"
+	Feature: Create, show, and list feature files
+  	  In order to create and view new feature files
+  	  As an public user
+  	  I want to be able to create, show, and list new features
 
-  Scenario: Create a new feature
-       When I go to the "new feature" page
-    And I fill in "feature-title" with "Some terse yet descriptive text of what is desired"
-    And I fill in "scenario-title" with "Some determinable business situation"
-    And I fill in "given-block" with "Given some precondition"
-    And I fill in "when-block" with "When some action by the actor"
-    And I fill in "then-block" with "Then some testable outcome is achieved"
-    And I press "submit"
-    Then I should be on the "list features page"
-    And I should see "Some terse yet descriptive text of what is desired"
+	Scenario: View the list of features
+      Given there is feature titled "Some terse yet descriptive text of what is desired"
+      When I go to the "list features" page
+      And I should see "Some terse yet descriptive text of what is desired"
 
-  Scenario: Add a new scenario to a existing feature
-       Given there is feature titled "Some terse yet descriptive text of what is desired"
-       When I go to the "list features" page
-    And I follow "Some terse yet descriptive text of what is desired"
-    And I follow "Add scenario"
-    And I fill in "feature-title" with "Another terse yet descriptive text of what is desired"
-    And I fill in "scenario-title" with "Another determinable business situation"
-    And I fill in "given-block" with "Given another precondition"
-    And I fill in "when-block" with "When some action by the actor"
-    And I fill in "then-block" with "Then some testable outcome is achieved yet again"
-    And I press "submit"
-    Then I should be on the "show feature page"
-    And I should see "Another determinable business situation"
+	Scenario: Create a new feature
+      When I go to the "new feature" page
+      And I fill in "feature-title" with "Some terse yet descriptive text of what is desired"
+      And I fill in "scenario-title" with "Some determinable business situation"
+      And I fill in "given-block" with "Given some precondition"
+      And I fill in "when-block" with "When some action by the actor"
+      And I fill in "then-block" with "Then some testable outcome is achieved"
+      And I press "submit"
+      Then I should be on the "list features page"
+      And I should see "Some terse yet descriptive text of what is desired"
 
-  Scenario: View a single feature
-       Given there is feature titled "Some terse yet descriptive text of what is desired"
-    And the feature has "feature-title" of "Some terse yet descriptive text of what is desired"
-    And the feature has "scenario-title" of "Some determinable business situation"
-    And the feature has "given-block" of "Given another precondition"
-    And the feature has "when-block" of "When some action by the actor"
-    And the feature has "then-block" of "Then some testable outcome is achieved"
-       When I go to the "list features" page
-    And I follow "Some terse yet descriptive text of what is desired"
-    Then I should see "Some terse yet descriptive text of what is desired"
-    And I should see "Some determinable business situation"
-    And I should see "Given another precondition"
-    And I should see "When some action by the actor"
-    And I should see "Then some testable outcome is achieved"
-`
+	Scenario: Add a new scenario to a existing feature
+      Given there is feature titled "Some terse yet descriptive text of what is desired"
+      When I go to the "list features" page
+      And I follow "Some terse yet descriptive text of what is desired"
+      And I follow "Add scenario"
+      And I fill in "feature-title" with "Another terse yet descriptive text of what is desired"
+      And I fill in "scenario-title" with "Another determinable business situation"
+      And I fill in "given-block" with "Given another precondition"
+      And I fill in "when-block" with "When some action by the actor"
+      And I fill in "then-block" with "Then some testable outcome is achieved yet again"
+      And I press "submit"
+      Then I should be on the "show feature page"
+      And I should see "Another determinable business situation"
+
+	Scenario: View a single feature
+      Given there is feature titled "Some terse yet descriptive text of what is desired"
+      And the feature has "feature-title" of "Some terse yet descriptive text of what is desired"
+      And the feature has "scenario-title" of "Some determinable business situation"
+      And the feature has "given-block" of "Given another precondition"
+      And the feature has "when-block" of "When some action by the actor"
+      And the feature has "then-block" of "Then some testable outcome is achieved"
+      When I go to the "list features" page
+      And I follow "Some terse yet descriptive text of what is desired"
+      Then I should see "Some terse yet descriptive text of what is desired"
+      And I should see "Some determinable business situation"
+      And I should see "Given another precondition"
+      And I should see "When some action by the actor"
+      And I should see "Then some testable outcome is achieved"
+
 
 ### Agnus BDD Technology Stack
 Cucumber - provides the parsing of the Gherkin language
@@ -111,15 +114,15 @@ The code test already includes an implementation for the first feature, View the
 
 ### Step One, run the feature file and note the failure  
 
-`$ ./script/cucumber features/gherkin.feature`  
+$ ./script/cucumber features/gherkin.feature  
 
 Note the line:  
-`
+
     TODO (Cucumber::Pending)
       ./features/step_definitions/gherkin_steps.rb:2:in /^there is feature titled "([^\"]*)"$/'
-` 
+ 
 This means that the step definition has not yet been implemented. This step definition uses a Factory to create a Feature model for testing but we need to define the Feature model first using the rspec_model generator:  
-`
+
 $ ./script/generate rspec_model feature
 
       create  app/models/
@@ -130,26 +133,26 @@ $ ./script/generate rspec_model feature
       create  spec/fixtures/features.yml
       create  db/migrate
       create  db/migrate/20100321045705_create_features.rb
-`
+
 Now that we have a model, let's create the factory file and add the factory (to spec/factories.rb). Based on our first scenario, we can determine which attributes are needed:  
-`
+
   Scenario: View the list of features
        Given there is feature titled "Some terse yet descriptive text of what is desired"
        When I go to the "list features" page
     And I should see "Some terse yet descriptive text of what is desired"
-`
+
 It looks like we need an attribute 'title' for the Feature model  
-`
+
   Factory.define :feature do |f|
     f.title 'Some terse yet descriptive text of what is desired'
   end 
-`
+
 Now we can go into the step definition (features/step_definitions/gherkin_steps.rb) and create the Feature factory:  
-`
+
   Given /^there is feature titled "([^\"]*)"$/ do |title|
     feature = Factory(:feature)
   end
-`
+
 Note that you can also override the default value with something this:  
 
   feature = Factory(:feature, :title => 'A different title than the default')
@@ -160,9 +163,9 @@ $ ./script/cucumber features/gherkin.feature
 
  Scenario: View the list of features                                                  # features/gherkin.feature:6
     Given there is feature titled "Some terse yet descriptive text of what is desired" # features/step_definitions/gherkin_steps.rb:1
-      Mysql::Error: Table 'bddcodetest_test.features' doesn't exist: SHOW FIELDS FROM `features` (ActiveRecord::StatementInvalid)
-      ./features/step_definitions/gherkin_steps.rb:2:in `/^there is feature titled "([^\"]*)"$/'
-      features/gherkin.feature:7:in `Given there is feature titled "Some terse yet descriptive text of what is desired"'
+      Mysql::Error: Table 'bddcodetest_test.features' doesn't exist: SHOW FIELDS FROM features (ActiveRecord::StatementInvalid)
+      ./features/step_definitions/gherkin_steps.rb:2:in /^there is feature titled "([^\"]*)"$/'
+      features/gherkin.feature:7:in Given there is feature titled "Some terse yet descriptive text of what is desired"'
  
 No, it looks like we haven't defined the Feature model in our database. In fact, we haven't done much of anything as far as the Feature model is concerned, so let's pause with the feature file and implement the spec and model for Feature.
 
@@ -240,9 +243,9 @@ $ ./script/cucumber features/gherkin.feature
     When I go to "the list features page"                                              # features/step_definitions/web_steps.rb:18
       Can't find mapping from ""the list features page"" to a path.
       Now, go and add a mapping in /Users/brez/Projects/Agnus/agnus_bdd_codetest/features/support/paths.rb (RuntimeError)
-      ./features/support/paths.rb:22:in `path_to'
-      ./features/step_definitions/web_steps.rb:19:in `/^(?:|I )go to (.+)$/'
-      features/gherkin.feature:8:in `When I go to "the list features page"'
+      ./features/support/paths.rb:22:in path_to'
+      ./features/step_definitions/web_steps.rb:19:in /^(?:|I )go to (.+)$/'
+      features/gherkin.feature:8:in When I go to "the list features page"'
     And I should see "Some terse yet descriptive text of what is desired"              # features/step_definitions/web_steps.rb:142
 
 
@@ -259,9 +262,9 @@ $ ./script/cucumber features/gherkin.feature
     Given there is feature titled "Some terse yet descriptive text of what is desired" # features/step_definitions/gherkin_steps.rb:1
     When I go to "the list features page"                                              # features/step_definitions/web_steps.rb:18
       No route matches "/features" with {:method=>:get} (ActionController::RoutingError)
-      (eval):2:in `visit'
-      ./features/step_definitions/web_steps.rb:19:in `/^(?:|I )go to (.+)$/'
-      features/gherkin.feature:8:in `When I go to "the list features page"'
+      (eval):2:in visit'
+      ./features/step_definitions/web_steps.rb:19:in /^(?:|I )go to (.+)$/'
+      features/gherkin.feature:8:in When I go to "the list features page"'
     And I should see "Some terse yet descriptive text of what is desired"              # features/step_definitions/web_steps.rb:142
 
 Turns out we haven't defined a controller for 'features', let's do that now
@@ -287,9 +290,9 @@ $ ./script/cucumber features/gherkin.feature
     Given there is feature titled "Some terse yet descriptive text of what is desired" # features/step_definitions/gherkin_steps.rb:1
     When I go to "the list features page"                                              # features/step_definitions/web_steps.rb:18
       No action responded to index. Actions:  (ActionController::UnknownAction)
-      (eval):2:in `visit'
-      ./features/step_definitions/web_steps.rb:19:in `/^(?:|I )go to (.+)$/'
-      features/gherkin.feature:8:in `When I go to "the list features page"'
+      (eval):2:in visit'
+      ./features/step_definitions/web_steps.rb:19:in /^(?:|I )go to (.+)$/'
+      features/gherkin.feature:8:in When I go to "the list features page"'
     And I should see "Some terse yet descriptive text of what is desired"              # features/step_definitions/web_steps.rb:142
 
 It seems I haven't described a method called 'index' on my controller, again since this is TDD, we write the spec first (spec/controllers/features_controller_spec.rb):
@@ -349,9 +352,9 @@ Scenario: View the list of features                                             
     Given there is feature titled "Some terse yet descriptive text of what is desired" # features/step_definitions/gherkin_steps.rb:1
     When I go to "the list features page"                                              # features/step_definitions/web_steps.rb:18
       Missing template features/index.erb in view path app/views (ActionView::MissingTemplate)
-      (eval):2:in `visit'
-      ./features/step_definitions/web_steps.rb:19:in `/^(?:|I )go to (.+)$/'
-      features/gherkin.feature:8:in `When I go to "the list features page"'
+      (eval):2:in visit'
+      ./features/step_definitions/web_steps.rb:19:in /^(?:|I )go to (.+)$/'
+      features/gherkin.feature:8:in When I go to "the list features page"'
     And I should see "Some terse yet descriptive text of what is desired"              # features/step_definitions/web_steps.rb:142
 
 Seems we're missing the actual view itself; let's add that now (app/views/features/index.html.erb). First we'll add a layout for the entire application (app/views/layout/application.html.erb):
