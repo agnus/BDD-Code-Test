@@ -404,3 +404,5 @@ The goals for a successful submission are fairly straightforward:
 
 
 When testing your submission, the first thing we will do is simply run the cucumber / rspecs to confirm they are passing. If there are red tests (not passing), you will automatically fail the test, i.e. it is vital that these are passing. From there we will do a more subjective review of how you implemented the project in terms of the code itself, but is of lesser importance. Your ability to adapt to this process is more important than any previous experience.
+
+&copy; 2010 AGNUS VIETNAM, LTD - Freely available for testing purposes, please cite if used. 
