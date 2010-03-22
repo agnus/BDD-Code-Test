@@ -114,7 +114,7 @@ The code test already includes an implementation for the first feature, View the
 
 ### Step One, run the feature file and note the failure  
 
-  $ ./script/cucumber features/gherkin.feature  
+	$ ./script/cucumber features/gherkin.feature  
 
 Note the line:  
 
@@ -123,7 +123,7 @@ Note the line:
  
 This means that the step definition has not yet been implemented. This step definition uses a Factory to create a Feature model for testing but we need to define the Feature model first using the rspec_model generator:  
 
-  $ ./script/generate rspec_model feature
+	$ ./script/generate rspec_model feature
 
       create  app/models/
       create  spec/models/
