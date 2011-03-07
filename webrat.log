@@ -1,0 +1,266 @@
+# Logfile created on Sun Mar 06 14:55:38 +0700 2011 by logger.rb/22285
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features/index with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/new with {} and HTTP headers {}
+REQUESTING PAGE: POST /features with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved", "given_block"=>"Given some precondition", "utf8"=>"✓", "feature_title"=>"Some terse yet descriptive text of what is desired", "scenario_title"=>"Some determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/new"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
+REQUESTING PAGE: GET /features/add_scenario/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features/1"}
+REQUESTING PAGE: POST /features/do_add_scenario?method=post with {"commit"=>"submit", "then_block"=>"Then some testable outcome is achieved yet again", "given_block"=>"Given another precondition", "utf8"=>"✓", "feature_id"=>"1", "feature_title"=>"Another terse yet descriptive text of what is desired", "scenario_title"=>"Another determinable business situation", "when_block"=>"When some action by the actor"} and HTTP headers {"HTTP_REFERER"=>"/features/add_scenario/1"}
+REQUESTING PAGE: GET /features with {} and HTTP headers {}
+REQUESTING PAGE: GET /features/1 with {} and HTTP headers {"HTTP_REFERER"=>"/features"}
