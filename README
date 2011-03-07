@@ -1,0 +1,6 @@
+Upgrade Rails 2 to Rails 3
+
+run:
+1. builde install
+2. db:migrate
+3. run 'rake cucumber' insteads of ./script/cucumber features/gherkin.feature
