@@ -1,5 +1,5 @@
 <ul>
   <% @features.each do |feature| %>
-    <li> <%= feature.title %> </li>
+    <li> <%= link_to feature.title,feature %> </li>
   <% end %>
 </ul>
